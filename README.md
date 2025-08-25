@@ -27,5 +27,28 @@ SQL queries were written to solve the following problems:
 3. Determine the **busiest day** for each branch  
 4. Calculate **total quantity sold per payment method**  
 5. Find **average, minimum, and maximum category rating** per city  
-6. Calculate **total profit for each category** using:  
+6. Calculate **total profit for each category** using:
+      - Total Profit = Unit Price × Quantity × Profit Margin
+7. Determine the **most common payment method** for each branch  
+8. Categorize sales into **Morning, Afternoon, Evening shifts** and count invoices  
+9. Identify **Top 5 branches** with the highest revenue decrease ratio (2023 vs 2022)  
+
+---
+
+## 🛠️ Technologies Used
+- **Python** → Pandas, NumPy, Jupyter Notebook  
+- **PostgreSQL** → SQL queries for analysis  
+- **Kaggle Dataset** → Walmart Sales Data  
+
+---
+
+## 📊 Key Insights
+- Different branches prefer different **payment methods**  
+- Some product categories consistently achieve **higher ratings**  
+- Peak business hours vary between **morning, afternoon, and evening shifts**  
+- Certain branches suffered a **major revenue decline in 2023 compared to 2022**  
+
+---
+
+
 
