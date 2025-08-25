@@ -33,14 +33,10 @@ SQL queries were written to solve the following problems:
 8. Categorize sales into **Morning, Afternoon, Evening shifts** and count invoices  
 9. Identify **Top 5 branches** with the highest revenue decrease ratio (2023 vs 2022)  
 
----
-
 ## 🛠️ Technologies Used
 - **Python** → Pandas, Jupyter Notebook  
 - **PostgreSQL** → SQL queries for analysis  
 - **Kaggle Dataset** → Walmart Sales Data  
-
----
 
 ## 📊 Key Insights
 - Different branches prefer different **payment methods**  
@@ -48,7 +44,8 @@ SQL queries were written to solve the following problems:
 - Peak business hours vary between **morning, afternoon, and evening shifts**  
 - Certain branches suffered a **major revenue decline in 2023 compared to 2022**  
 
----
+## 📌 Conclusion
+This project demonstrates a complete data pipeline from cleaning raw data to solving real-world business problems using SQL. It highlights the combined power of Python for preprocessing and PostgreSQL for analytics.
 
 
 
