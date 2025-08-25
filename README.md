@@ -35,7 +35,7 @@ SQL queries were written to solve the following problems:
 
 ## 📝 Sample SQL Queries
 
-### 1. Payment Methods and Transactions
+### Payment Methods and Transactions
 ```sql
 -- Find different payment methods and number of transactions, quantity sold
 SELECT 
