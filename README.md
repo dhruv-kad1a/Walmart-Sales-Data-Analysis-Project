@@ -36,7 +36,7 @@ SQL queries were written to solve the following problems:
 ---
 
 ## 🛠️ Technologies Used
-- **Python** → Pandas, NumPy, Jupyter Notebook  
+- **Python** → Pandas, Jupyter Notebook  
 - **PostgreSQL** → SQL queries for analysis  
 - **Kaggle Dataset** → Walmart Sales Data  
 
