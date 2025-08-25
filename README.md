@@ -31,7 +31,20 @@ SQL queries were written to solve the following problems:
       - Total Profit = Unit Price × Quantity × Profit Margin
 7. Determine the **most common payment method** for each branch  
 8. Categorize sales into **Morning, Afternoon, Evening shifts** and count invoices  
-9. Identify **Top 5 branches** with the highest revenue decrease ratio (2023 vs 2022)  
+9. Identify **Top 5 branches** with the highest revenue decrease ratio (2023 vs 2022)
+
+## 📝 Sample SQL Queries
+
+### 1. Payment Methods and Transactions
+```sql
+-- Find different payment methods and number of transactions, quantity sold
+SELECT 
+    payment_method, 
+    COUNT(*) AS no_transactions,
+    SUM(quantity) AS total_quantity_sold
+FROM walmart
+GROUP BY payment_method;
+```
 
 ## 🛠️ Technologies Used
 - **Python** → Pandas, Jupyter Notebook  
